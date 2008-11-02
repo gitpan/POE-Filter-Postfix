@@ -5,6 +5,7 @@ author:
 generated_by: Dist::Zilla::Plugin::MetaYaml version 1.003
 license: perl
 name: POE-Filter-Postfix
-requires: {}
-
-version: 0.001
+requires: 
+  MIME::Base64: 0
+  POE::Filter: 0
+version: 0.002

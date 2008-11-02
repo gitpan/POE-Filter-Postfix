@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 package POE::Filter::Postfix;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 
 # ABSTRACT: Postfix (MTA) text attribute communication
@@ -113,7 +113,7 @@ POE::Filter::Postfix - Postfix (MTA) text attribute communication
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 
