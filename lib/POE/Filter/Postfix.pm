@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 package POE::Filter::Postfix;
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 
 # ABSTRACT: Postfix (MTA) text attribute communication
@@ -26,7 +26,6 @@ BEGIN {
     request_terminator
   )
 }
-
 
 
 sub new {
@@ -113,12 +112,15 @@ POE::Filter::Postfix - Postfix (MTA) text attribute communication
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 DESCRIPTION
 
 This filter translates between hashrefs and the key-value attribute protocols
 that the Postfix MTA uses for its internal communications.
+
+Unless you're doing something complicated, you can probably use
+L<POE::Component::Server::Postfix> instead of this module.
 
 Don't use this module directly.  See L<POE::Filter::Postfix::Null>,
 L<POE::Filter::Postfix::Base64>, and L<POE::Filter::Postfix::Plain> instead.

@@ -8,4 +8,5 @@ name: POE-Filter-Postfix
 requires: 
   MIME::Base64: 0
   POE::Filter: 0
-version: 0.002
+  Test::More: 0
+version: 0.003

@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 package POE::Filter::Postfix::Plain;
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 
 use base qw(POE::Filter::Postfix);
@@ -20,7 +20,7 @@ POE::Filter::Postfix::Plain
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 
